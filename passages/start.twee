@@ -13,7 +13,7 @@
 beneath the moon, before the steps
 
 :: PassageHeader
-<<if not tags().includes('etc')>><<if tags().includes('wenruo')>><<type 300ms>><h2>亭台上的花影一層又一層，<br />幾次叫僕人去清掃都掃不掉。</h2><</type>><<fadein 2.0s 0s>><h3>the flowers fall in layers upon the pavilion.<br />they cover the ground no matter how we try to sweep.</h3><br /><</fadein>><</if>><<if tags().includes('fengyue')>><<type 300ms>><h2>剛被太陽收拾去, 卻教明月送將來。</h2><</type>><<fadein 2.0s 0s>><h3>just as the sun takes the shadows of flowers away,<br />the full moon brings them back again.</h3><br /><</fadein>><</if>><</if>>
+<<if not tags().includes('etc')>><<if tags().includes('ends')>><<type 300ms>><h2>獨上江樓思渺然 月光如水水如天<br />同來望月人何處 風景依稀似去年</h2><</type>><<fadein 1.0s 2.0s>><<type 120ms>><h3>alone on a river tower, my thoughts full of sorrow.<br />moonlight like the water, the water like the sky<br />where is the person with whom i once shared the moon?<br />the view isn't quite the same as it was last year</h3><</type>><</fadein>><</if>><<if tags().includes('wenruo')>><<type 300ms>><h2>亭台上的花影一層又一層，<br />幾次叫僕人去清掃都掃不掉。</h2><</type>><<fadein 2.0s 0s>><h3>the flowers fall in layers upon the pavilion.<br />they cover the ground no matter how we try to sweep.</h3><br /><</fadein>><</if>><<if tags().includes('fengyue')>><<type 300ms>><h2>剛被太陽收拾去, 卻教明月送將來。</h2><</type>><<fadein 2.0s 0s>><h3>just as the sun takes the shadows of flowers away,<br />the full moon brings them back again.</h3><br /><</fadein>><</if>><</if>>
 
 :: Start [mainmenu etc]
 
@@ -24,8 +24,8 @@ beneath the moon, before the steps
     <<set $previouslink to setup.previouspage()>>
     <<set $nextlink to setup.nextpage()>>
         <div style="text-align:center;">[[⭠|$previouslink]] [[Menu]] [[🠖|$nextlink]]</div>
-    <</widget>><</nobr>>"one marriage for one lifetime" is a piece of short fiction written by sas in 2019.
-originally <<linkreplace "untitled,">>==untitled,== (at least. i saved it untitled. i'm so sorry if it was titled baby i couldn't find it in our texts! tell me what it is and i'll fix it asap!),<</linkreplace>> i selected a quote from the piece and titled it.
+    <</widget>><</nobr>>"beneath the moon, before the steps" is a thread written between <<linkreplace "sas">>you<</linkreplace>> and <<linkreplace "nhi">>me<</linkreplace>>.
+it was originally written on <<linkreplace "natura">>natura (smokes my cigarette: wow haven't heard that name in a long time...)<</linkreplace>> in 2021. there are some references to natura-specific lore. both fengyue and wenruo's surnames are different as well.
 
 [[about|About]]
 [[read|Page1]]
@@ -51,32 +51,20 @@ Show pagination is currently set to $show_pagination. <<if $show_pagination is t
 
 
 :: About [etc]
-Hi baby,
 
-Today's friend's day! There will be more on that in your <<linkreplace "card.">>card, but you'll only be able to read it after you make it through the actual story. ;)<</linkreplace>>
+I just wanted to give you a little you and a little me in this present!
+It wouldn't be here without writing with you, as would so many other things we've shared together.
 
-<<linkreplace "How should I read this?">>==How should I read this?==
-Ideally twice! I imagine reading the about page (where you are right now), the story you wrote, the card, and the story one more time.
-There is a menu at the bottom of each passage, but you should ideally click through using the links within the text.
-<</linkreplace>>
+I've written more about this in your [[birthday card|Card]], but you won't be able to read it till you've read the story! :D
 
-<<linkreplace "What is this?">>==What is this?==
-This is a bit of a strange gift. It almost feels like a cop-out. I assure you it isn't. Weeks ago, after texting with Kai, I was trying to figure out what to get you. I know you and Alice like personal gifts, so I decided to take a piece of writing that each of you had written and turn it into a <<linkreplace "Twine game.">>Twine game. It's not really a game though, more like a visual novel.<</linkreplace>><</linkreplace>>
-
-<<linkreplace "Why did you make this?">>==Why did you make this?==
-I just wanted each of you to have a place where you could revisit <<linkreplace "one of your favorite pieces of writing.">>one of your favorite pieces of writing.
-
-Though knowing you, I am sure you'd say something like, "your writing is my favorite though" or "alice's writing is my favorite!". So I picked my personal favorite of the oneshots I had on hand for you instead.<</linkreplace>>
-
-For you specifically, I wanted to use this as a way to show you how I view your writing. Like a...what-does-Nhi-feel-and-see-when-reading-Sas's-writing-simulator. :) While making this for you, I thought a lot about what an ideal reading experience for you would be. Aesthetic, simple, and beautiful. Luckily, the Twine platform accomodates this nicely.<</linkreplace>>
-
-I hope you enjoy!
+[[Here|https://nnguyenrh.github.io/sas/]] is a link to last year's game if you wanna reminisce.
 
 [[Return?|Start]]
 
 :: Card [etc]
-<<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)<<else>>
+/* <<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)<<else>> */
 
+<h1>hewwo :3</h1>
 Hi baby!
 
 Predictably, I have prepared for you another twine for our friend day… Truly, I think hard over and put my whole little heart into making these, but I can’t help but feel like I’ve copped out by gifting another one for you.
@@ -87,9 +75,22 @@ I really mean it when art block like this eventually goes away. I’ve told you 
 
 The reason why it took years to work through was mostly because I was trying to pull through it alone. This was partly my fault. I didn’t really share my art with anyone, and I didn’t have an artistic community or even friends to talk to about it. Luckily, things got better as I finished university and found myself in a better place than before. But if I had some more support and encouragement, I would have returned to drawing a lot sooner than that, and with a healthier mindset as well.
 
-So I wanted to gift you some things that might help you work through your writer’s block. First is one of our favorite threads in twine form, and second is Clarice Lispector’s complete cronicas collection (the latter of which is coming late. :( But most definitely coming, thanks to Kai and Alice!!!) in print form, because it just feels more special to have a print book than an eBook, I think!
+So I wanted to gift you some things that might help you work through your writer’s block. First is one of our favorite threads in twine form, and second is Clarice Lispector’s complete cronicas collection (the latter of which is coming late. :( But most definitely coming, thanks to Kai and Alice's help!!!) in print form, because it just feels more special to have a print book than an eBook, I think!
 
 I don’t know how long it’ll be before you find that you can write again. I just want you to know that it won’t be never, and that regardless of where we are in our lives, that I’ll always want to write with you, and your writing is just so important to me. There’s nothing else out there quite like writing with you, except maybe reading from you. Otherwise, everything else is a distant second, if it were even a comparable experience.
-<</if>>
+
+[[Why this thread for this Twine, though?|Card2]]
+
+:: Card2 [etc]
+
+<h2>about this one</h2>
+
+I don’t really know how to describe the significance of the threads we wrote between Fengyue and Wenruo, because it would sound unbelievable. I’m sure it’s the same for you.
+
+For me, I mean it when I say I think about them daily, regardless of how much time has passed since we’ve written them. I'm not even saying it to be nice or to exaggerate. It might be that I remember something we wrote some time ago, or something you said. Or maybe I will think about where they are in their relationship and try to figure out why. It's a little embarrassing to say, but every day, I really do think about them both, and I think I might forever.
+
+Which makes them feel more precious and fragile, because we wouldn’t have written them if we had not joined Natura together. Yet at the same time, I think we would have written them in a different way, under different circumstances. And they would then occupy my mind in exactly the same way. That’s just how it is when I write with you. I don’t think there’s anyone or anything in the world that can replicate that feeling for me, so I am perfectly content with waiting around for you to write with me again. Until we’re both up for it, I’ll just try to find a way to remind you of that and of all the things you’ve written before, as well as all the things you’ll write in the future that I’ll both be excited to read and extremely flattered to write with you.
+
+/* <</if>> */
 
 [[Return?|Start]]

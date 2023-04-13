@@ -10,22 +10,21 @@
 <<set $finished_reading to false>><<set $show_pagination to false>>
 
 :: StoryTitle
-one marriage for one lifetime
+beneath the moon, before the steps
+
+:: PassageHeader
+<<if not tags().includes('etc')>><<if tags().includes('wenruo')>><<type 300ms>><h2>亭台上的花影一層又一層，<br />幾次叫僕人去清掃都掃不掉。</h2><</type>><<fadein 2.0s 0s>><h3>the flowers fall in layers upon the pavilion.<br />they cover the ground no matter how we try to sweep.</h3><br /><</fadein>><</if>><<if tags().includes('fengyue')>><<type 300ms>><h2>剛被太陽收拾去, 卻教明月送將來。</h2><</type>><<fadein 2.0s 0s>><h3>just as the sun takes the shadows of flowers away,<br />the full moon brings them back again.</h3><br /><</fadein>><</if>><</if>>
 
 :: Start [mainmenu etc]
 
-<h1><<fadein 1.5s 1.0s>>one<</fadein>>
-<<fadein 1.5s 1.5s>>marriage<</fadein>>
-<<fadein 1.5s 2.0s>>for one<</fadein>>
-<<fadein 1.5s 2.7s>><font color="#b6366b">lifetime</font><</fadein>></h1><<fadein 1.5s 4.0s>><hr />
-<<nobr>><</nobr>><<nobr>>
+<h1><<fadein 1.5s 1.0s>>beneath the moon,<</fadein>>
+<<fadein 1.5s 1.5s>>before the steps<</fadein>>
+<<fadein 1.5s 2.0s>><hr /><</fadein>></h1><<fadein 1.5s 4.0s>><<nobr>>
     <<widget "pagination">>
     <<set $previouslink to setup.previouspage()>>
     <<set $nextlink to setup.nextpage()>>
         <div style="text-align:center;">[[⭠|$previouslink]] [[Menu]] [[🠖|$nextlink]]</div>
-    <</widget>>
-<</nobr>>
-"one marriage for one lifetime" is a piece of short fiction written by sas in 2019.
+    <</widget>><</nobr>>"one marriage for one lifetime" is a piece of short fiction written by sas in 2019.
 originally <<linkreplace "untitled,">>==untitled,== (at least. i saved it untitled. i'm so sorry if it was titled baby i couldn't find it in our texts! tell me what it is and i'll fix it asap!),<</linkreplace>> i selected a quote from the piece and titled it.
 
 [[about|About]]

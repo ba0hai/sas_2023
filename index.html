@@ -469,7 +469,8 @@ You can also set whether or not you want a paged menu to appear as well.
 
 Show pagination is currently set to $show_pagination. &lt;&lt;if $show_pagination is true&gt;&gt; &lt;span id=&quot;page_off&quot;&gt;&lt;&lt;link &quot;Turn it off?&quot;&gt;&gt;&lt;/span&gt;&lt;&lt;replace &quot;#page_off&quot; t8n&gt;&gt;&lt;&lt;set $show_pagination to false&gt;&gt;Turned pagination off.&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt; &lt;&lt;else&gt;&gt; &lt;span id=&quot;page_on&quot;&gt;&lt;&lt;link &quot;Turn it on?&quot;&gt;&gt;&lt;/span&gt;&lt;&lt;replace &quot;#page_on&quot; t8n&gt;&gt;&lt;&lt;set $show_pagination to true&gt;&gt;Turned pagination on.&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;&lt;return &quot;Return to page?&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="About" tags="etc" position="600,350" size="100,100">I just wanted to give you a little you and a little me in this present!
+&lt;&lt;return &quot;Return to page?&quot;&gt;&gt;
+&lt;&lt;linkreplace &quot;Return to Main Menu?&quot;&gt;&gt;[[Return to Main Menu?|Start]] Note: This will reset reading progress, so remember to save your progress first, and load it later.&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="About" tags="etc" position="600,350" size="100,100">I just wanted to give you a little you and a little me in this present!
 It wouldn&#39;t be here without writing with you, as would so many other things we&#39;ve shared together.
 
 I&#39;ve written more about this in your [[birthday card|Card]], but you won&#39;t be able to read it till you&#39;ve read the story! :D

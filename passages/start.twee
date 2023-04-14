@@ -43,7 +43,7 @@ You can also set whether or not you want a paged menu to appear as well.
 Show pagination is currently set to $show_pagination. <<if $show_pagination is true>> <span id="page_off"><<link "Turn it off?">></span><<replace "#page_off" t8n>><<set $show_pagination to false>>Turned pagination off.<</replace>><</link>> <<else>> <span id="page_on"><<link "Turn it on?">></span><<replace "#page_on" t8n>><<set $show_pagination to true>>Turned pagination on.<</replace>><</link>><</if>>
 
 <<return "Return to page?">>
-
+<<linkreplace "Return to Main Menu?">>[[Return to Main Menu?|Start]] Note: This will reset reading progress, so remember to save your progress first, and load it later.<</linkreplace>>
 
 :: About [etc]
 

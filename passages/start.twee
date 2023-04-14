@@ -23,9 +23,9 @@ beneath the moon, before the steps
     <<widget "pagination">>
     <<set $previouslink to setup.previouspage()>>
     <<set $nextlink to setup.nextpage()>>
-        <div style="text-align:center;">[[⭠|$previouslink]] [[Menu]] [[🠖|$nextlink]]</div>
+        <div style="text-align:center;">[[⇦|$previouslink]] [[Menu]] [[⇨|$nextlink]]</div>
     <</widget>><</nobr>>"beneath the moon, before the steps" is a thread written between <<linkreplace "sas">>you<</linkreplace>> and <<linkreplace "nhi">>me<</linkreplace>>.
-it was originally written on <<linkreplace "natura">>natura (smokes my cigarette: wow haven't heard that name in a long time...)<</linkreplace>> in 2021. there are some references to natura-specific lore. both fengyue and wenruo's surnames are different as well.
+it was originally written on <<linkreplace "natura">>natura (smokes my cigarette: wow haven't heard that name in a long time...)<</linkreplace>> in 2021. there are some references to natura-specific lore. both fengyue and wenruo's surnames are different from what they are now.
 
 [[about|About]]
 [[read|Page1]]
@@ -62,7 +62,7 @@ I've written more about this in your [[birthday card|Card]], but you won't be ab
 [[Return?|Start]]
 
 :: Card [etc]
-/* <<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)<<else>> */
+<<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)<<else>>
 
 <h1>hewwo :3</h1>
 Hi baby!
@@ -81,6 +81,8 @@ I don’t know how long it’ll be before you find that you can write again. I j
 
 [[Why this thread for this Twine, though?|Card2]]
 
+<</if>>
+
 :: Card2 [etc]
 
 <h2>about this one</h2>
@@ -90,7 +92,5 @@ I don’t really know how to describe the significance of the threads we wrote b
 For me, I mean it when I say I think about them daily, regardless of how much time has passed since we’ve written them. I'm not even saying it to be nice or to exaggerate. It might be that I remember something we wrote some time ago, or something you said. Or maybe I will think about where they are in their relationship and try to figure out why. It's a little embarrassing to say, but every day, I really do think about them both, and I think I might forever.
 
 Which makes them feel more precious and fragile, because we wouldn’t have written them if we had not joined Natura together. Yet at the same time, I think we would have written them in a different way, under different circumstances. And they would then occupy my mind in exactly the same way. That’s just how it is when I write with you. I don’t think there’s anyone or anything in the world that can replicate that feeling for me, so I am perfectly content with waiting around for you to write with me again. Until we’re both up for it, I’ll just try to find a way to remind you of that and of all the things you’ve written before, as well as all the things you’ll write in the future that I’ll both be excited to read and extremely flattered to write with you.
-
-/* <</if>> */
 
 [[Return?|Start]]

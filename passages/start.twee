@@ -19,12 +19,7 @@ beneath the moon, before the steps
 
 <h1><<fadein 1.5s 1.0s>>beneath the moon,<</fadein>>
 <<fadein 1.5s 1.5s>>before the steps<</fadein>>
-<<fadein 1.5s 2.0s>><hr /><</fadein>></h1><<fadein 1.5s 4.0s>><<nobr>>
-    <<widget "pagination">>
-    <<set $previouslink to setup.previouspage()>>
-    <<set $nextlink to setup.nextpage()>>
-        <div style="text-align:center;">[[⇦|$previouslink]] [[Menu]] [[⇨|$nextlink]]</div>
-    <</widget>><</nobr>>"beneath the moon, before the steps" is a thread written between <<linkreplace "sas">>you<</linkreplace>> and <<linkreplace "nhi">>me<</linkreplace>>.
+<<fadein 1.5s 2.0s>><hr /><</fadein>></h1><<fadein 1.5s 4.0s>>"beneath the moon, before the steps" is a thread written between <<linkreplace "sas">>you<</linkreplace>> and <<linkreplace "nhi">>me<</linkreplace>>.
 it was originally written on <<linkreplace "natura">>natura (smokes my cigarette: wow haven't heard that name in a long time...)<</linkreplace>> in 2021. there are some references to natura-specific lore. both fengyue and wenruo's surnames are different from what they are now.
 
 [[about|About]]
@@ -36,7 +31,7 @@ it was originally written on <<linkreplace "natura">>natura (smokes my cigarette
 <<if not tags().includes('mainmenu') and not tags().includes('etc')>>
 
 
-
+<<nobr>><<widget "pagination">><<set $previouslink to setup.previouspage()>><<set $nextlink to setup.nextpage()>><div style="text-align:center;">[[⇦|$previouslink]] [[Menu]] [[⇨|$nextlink]]</div><</widget>><</nobr>>
 <<nobr>><<if $show_pagination is true>><<pagination>><<else>>[[Menu]]<</if>><</nobr>><</if>>
 
 :: Menu [etc]

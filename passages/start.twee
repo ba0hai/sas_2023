@@ -57,7 +57,9 @@ I've written more about this in your [[birthday card|Card]], but you won't be ab
 [[Return?|Start]]
 
 :: Card [etc]
-<<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)<<else>>
+<<if $finished_reading is false>>You'll be able to read your special card once you've passed through the thread. :)
+
+[[Return?|Start]]<<else>>
 
 <h1>hewwo :3</h1>
 Hi baby!
